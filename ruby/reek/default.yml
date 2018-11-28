@@ -55,8 +55,9 @@ detectors:
   ManualDispatch:
     enabled: true
     exclude: []
+  # Not really useful and ignored a lot.
   MissingSafeMethod:
-    enabled: true
+    enabled: false
     exclude: []
   ModuleInitialize:
     enabled: true
